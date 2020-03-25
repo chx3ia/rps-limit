@@ -1,0 +1,34 @@
+{
+  "name": "rps-limit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --forceExit --verbose"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/*.test.js?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "globals": {
+      "NODE_ENV": "test"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "jest": "^24.5.0",
+    "moment": "^2.24.0",
+    "nodeutil": "^0.1.0",
+    "redis": "^2.8.0",
+    "redis-commands": "^1.4.0"
+  },
+  "dependencies": {
+    "qs": "^6.7.0"
+  }
+}
