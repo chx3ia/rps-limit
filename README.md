@@ -1,6 +1,6 @@
 ## Prerequisites
 
-This project is running with Nodejs. It is a response to the interview exam request from [DCard](https://www.dcard.tw) in 2019.
+This project is running with Nodejs. It is a response to the interview exam request from [DCard](https://www.dcard.tw) in Jan, 2019. The goal is to limit request number to be 60 in a minute from one IP.
 
 Before going on, please install the following software:
  
