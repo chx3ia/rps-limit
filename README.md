@@ -1,6 +1,6 @@
 ## Prerequisites
 
-This project is running with Nodejs. It is a response to the interview exam request from [DCard](https://www.dcard.tw) in Jan, 2019. The goal is to limit request number to be 60 in a minute from one IP.
+This project is running with Nodejs. It is a response to the interview exam request from [DCard](https://www.dcard.tw) in Jan, 2019. The goal is to limit request number to be 60 in a minute from one IP. You can adjust the time from a minute to a second by changing TS_SECOND value in lib/config.js to 1.
 
 Before going on, please install the following software:
  
