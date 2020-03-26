@@ -1,6 +1,6 @@
 ## Background
 
-This project is running with Nodejs. The project goal is to limit request number from one IP to be 60/minute. You can adjust the time from a 60 seconds to 1 second by changing TS_SECOND value in lib/config.js to 1.
+In this project, I set rate the limit requests from one IP to be 60/minute. You can adjust the time from a 60 seconds to 1 second by changing TS_SECOND value in lib/config.js to 1.
 
 Before going on, please install the following software:
  
@@ -50,3 +50,6 @@ Stop redis container and remove image:
     $ docker stop rps-limit-redis
     $ docker rmi redis
 
+## Be aware
+
+The packages of this project is not always updated to the latest version. Use it at your own risk.
