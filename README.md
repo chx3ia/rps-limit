@@ -1,6 +1,6 @@
 ## Background
 
-In this project, I set rate the limit requests from one IP to be 60/minute. You can adjust the time from a 60 seconds to 1 second by changing TS_SECOND value in lib/config.js to 1.
+In this project, I set the rate of limited requests from one IP to be 60/minute. You can adjust the rate from 60 seconds to 1 second by changing TS_SECOND value in the lib/config.js.
 
 Before going on, please install the following software:
  
