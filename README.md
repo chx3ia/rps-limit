@@ -1,6 +1,8 @@
 ## Background
 
-In this project, I set the rate of limited requests from one IP to be 60/minute. You can adjust the rate from 60 seconds to 1 second by changing TS_SECOND value in the lib/config.js.
+This code example is a simple demo of rate limiting in Nodejs. In this repo, instead of showing you how to set the X-Rate-Limit-Limit or X-Rate-Limit-Remaining in the HTTP header, it shows how to use cache to manage the calls per second from a client. 
+
+I set the rate of limited requests from one IP to be 60 times a minute. You can adjust the rate from 60 seconds to 1 second by changing TS_SECOND value in the lib/config.js.
 
 Before going on, please install the following software:
  
